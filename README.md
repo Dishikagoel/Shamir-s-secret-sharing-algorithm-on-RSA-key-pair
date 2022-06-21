@@ -11,11 +11,11 @@
    The program was built in python 3.9, and should be compatible with versions 3.6 and later.
    The libraries used are-
 
-   1. cryptography can be intalled using 
+   1. `cryptography` can be intalled using 
    
            $ pip install cryptography
        
-   2. sslib can be installed using 
+   2. `sslib` can be installed using 
    
            $ pip install sslib
 
