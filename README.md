@@ -1,12 +1,12 @@
 # Shamirs-secret-sharing-algorithm-on-RSA-key-pair
 
-CLI Program:
+**CLI Program:**
   
    This command line interface program creates an RSA key pair and shards (breaks up into pieces) the private key 
    into n pieces using Shamir's secret sharing algorithm so that when given atleast k pieces, the app  re-creates 
    the private key and is able to decrypt the message encrypted using the public key.
 
-  Program Dependencies:
+**Program Dependencies:**
 
    The program was built in python 3.9, and should be compatible with versions 3.6 and later.
    The libraries used are-
@@ -20,7 +20,7 @@ CLI Program:
            $ pip install sslib
 
 
-How to run on Command Line:
+**How to run on Command Line:**
 
    Use the following command to run the program on CLI-
 
@@ -37,7 +37,7 @@ How to run on Command Line:
   2. write the private key shards to text files called Shard[k].TXT
   3. print out the decrypted message
 
-Unit Test:
+**Unit Test:**
 
    The unit test demonstrate that the program works correctly, by doing the following:
 
@@ -47,7 +47,7 @@ Unit Test:
   4.	Decrypts the cypher text back into the plain text using the reassembled Private Key.
   5.	Asserts the decrypted plain text is equal to the original random plain text in Step 2.
 
-How to run the unit test:
+**How to run the unit test:**
 
    The unit test uses an in-built python library `unittest`. To run the unit test use the following command:
 
